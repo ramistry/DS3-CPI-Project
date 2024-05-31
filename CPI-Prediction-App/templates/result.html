@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prediction Result</title>
+</head>
+<body>
+    <p style="font-size: larger;">Predicted CPI for {{ category }} in {{ year }}: {{ cpi_prediction | round(2) }}</p>
+    <p style="font-size: larger;">Predicted Inflation for {{ category }} in {{ year }}: {{ inflation | round(2) }}%</p>
+    <img src="{{ plot_url }}" alt="CPI Prediction Plot">
+</body>
+</html>
