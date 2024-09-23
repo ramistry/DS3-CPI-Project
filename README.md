@@ -20,7 +20,7 @@ The project consists of the following files:
 CPI Prediction - Linear Regression.ipynb: Jupyter notebook containing the entire workflow from data preprocessing to model evaluation.
 data/: Directory containing the dataset used for the analysis.
 
-# 4.Key Steps
+## 4.Key Steps
 Data Preprocessing:
 
 Load and clean the data.
