@@ -1,6 +1,5 @@
 # DS3-CPI-Project
 
-
 ## 1. Overview
 <br />
 This project demonstrates how to use linear regression to predict the Consumer Price Index (CPI). The CPI is a key economic indicator used to measure inflation by tracking the average change over time in the prices paid by consumers for goods and services. This notebook applies a machine learning approach, specifically linear regression, to predict CPI values based on historical economic data.
@@ -18,6 +17,7 @@ The dataset is divided into training and testing sets to evaluate the model's pe
 The project consists of the following files:
 
 `CPI Prediction - Linear Regression.ipynb` : Jupyter notebook containing the entire workflow from data preprocessing to model evaluation.
+
 `cpi_data.csv` : Directory containing the dataset used for the analysis.
 
 ## 4. Key Steps
