@@ -24,25 +24,30 @@ The project consists of the following files:
 Data Preprocessing:
 
 `Load and clean the data.`
+
 `Handle missing values, if any.`
+
 `Split the data into training and testing sets.`
 
 
 Model Training:
 
 `Apply linear regression using Scikit-learn.`
+
 `Fit the model on the training data.`
+
 `Use the trained model to predict CPI values on the test set.`
 
 Model Evaluation:
 
 `Calculate metrics like Mean Squared Error (MSE) and R-squared (R²) to assess the model's performance.`
+
 `Plot residuals to check the accuracy of the model’s predictions.`
 
 ## 5. Technologies Used and Requirements for Use
 * `Python`
-* `PyTorch`: open-source machine learning library used for building and training the model.
+* `Jupyter Notebook`: Development environment.
 * `Transformers (Hugging Face)`: A library providing pre-trained transformer models, including BERT.
-* `Pandas`: data manipulation and analysis library.
-* `scikit-learn`: library used for splitting the dataset into training and testing sets.
-* `TQDM`: library for displaying progress bars during training.
+* `Scikit-learn`: Machine learning library used for implementing linear regression.
+* `Pandas`: Data manipulation library.
+* `Matplotlib and Seaborn`: Libraries for plotting and data visualization.
