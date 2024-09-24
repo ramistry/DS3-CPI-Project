@@ -17,24 +17,26 @@ The dataset is divided into training and testing sets to evaluate the model's pe
 ## 3. Structure
 The project consists of the following files:
 
-CPI Prediction - Linear Regression.ipynb: Jupyter notebook containing the entire workflow from data preprocessing to model evaluation.
-data/: Directory containing the dataset used for the analysis.
+`CPI Prediction - Linear Regression.ipynb` : Jupyter notebook containing the entire workflow from data preprocessing to model evaluation.
+`cpi_data.csv` : Directory containing the dataset used for the analysis.
 
-## 4.Key Steps
+## 4. Key Steps
 Data Preprocessing:
 
-Load and clean the data.
-Handle missing values, if any.
-Split the data into training and testing sets.
-Model Training:
+`Load and clean the data.`
+`Handle missing values, if any.`
+`Split the data into training and testing sets.`
 
-Apply linear regression using Scikit-learn.
-Fit the model on the training data.
-Use the trained model to predict CPI values on the test set.
+
+Model Training:
+`Apply linear regression using Scikit-learn.`
+`Fit the model on the training data.`
+`Use the trained model to predict CPI values on the test set.`
+
 Model Evaluation:
 
-Calculate metrics like Mean Squared Error (MSE) and R-squared (R²) to assess the model's performance.
-Plot residuals to check the accuracy of the model’s predictions.
+`Calculate metrics like Mean Squared Error (MSE) and R-squared (R²) to assess the model's performance.`
+`Plot residuals to check the accuracy of the model’s predictions.`
 
 ## 5. Technologies Used and Requirements for Use
 * `Python`
