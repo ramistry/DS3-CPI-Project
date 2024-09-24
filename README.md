@@ -29,6 +29,7 @@ Data Preprocessing:
 
 
 Model Training:
+
 `Apply linear regression using Scikit-learn.`
 `Fit the model on the training data.`
 `Use the trained model to predict CPI values on the test set.`
